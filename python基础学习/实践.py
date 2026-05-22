@@ -1,4 +1,4 @@
-#9*9乘法表
+#1.9*9乘法表
 for i in range(1, 10):
     for j in range(1, 10):
         cheng = i * j
@@ -7,13 +7,13 @@ for i in range(1, 10):
         # end 的作用：决定 print() 输出结束后，在屏幕上追加什么字符（默认为换行符 \n）
     print()  # 每完成一行后换行
 
-#构造字典
+#2.构造字典
 thisdict = dict(brand="Porsche", model="911", year=1963)
 # 请注意，关键字不是字符串字面量
 # 请注意，使用了等号而不是冒号来赋值
 print(thisdict)
 
-#continue和break
+#3.continue和break
 i = 0
 while i < 5:
     i += 1
@@ -28,13 +28,13 @@ while i < 7:
     break
   i += 1
 
-#字典验证
+#4.字典验证
 a= {'a':'a','a':'b'}
 b= {'a':'a','b':'a'}
 print(type(a.values()) ,'\n' ,type(b.keys()))
 c= 'ab'
 
-#猜数字1-100
+#5.猜数字1-100
 import random
 b = random.randrange(1,101)
 i = 1
@@ -57,7 +57,8 @@ while i < 6:
             print('no,big')
 else:
     print('no,you are loser')
-#子，父类
+
+#6.子，父类
 class fu:
     def __init__(self,name,age):
         self.name = name
@@ -83,7 +84,7 @@ y =  zi('rouse',20,'luoma')
 print(y)
 
 
-#迭代器
+#7.迭代器
 class numbers:
     def __iter__(self):
         self.a = 1
@@ -101,7 +102,7 @@ ddq = iter(dx)
 for i in ddq:
     print(i)
 
-#类多态
+#8.类多态
 class Vehicle:
   def __init__(self, brand, model):
     self.brand = brand
