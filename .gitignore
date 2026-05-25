@@ -5,3 +5,8 @@ pyvenv.cfg
 .idea/
 __pycache__/
 *.pyc
+# SSH 密钥文件
+srx15835984111*
+*.pub
+*_rsa
+*_ed25519
