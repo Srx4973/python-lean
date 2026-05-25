@@ -131,11 +131,17 @@ for x in (car1, boat1, plane1):
   print(x.model)
   x.move()
 
+#9.文件处理
+x = open('demo.text','w')
+x.write('Hello!'
+        'Welcome to demofile.txt,'
+        'This file is for testing purposes.'
+        'Good Luck!')
+x.close()
+x = open('demo.text')
+print(x.read())
 
 
-
-
-
-
-
-
+with open('demo.text') as f:
+    for i in f:
+        print(i)

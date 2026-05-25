@@ -114,10 +114,4 @@ json.dumps(x, indent=4)
 json.dumps(x, indent=4, separators=(". ", " = "))
 
 ### c.按键名字母顺序排序结果
-son.dumps(x, indent=4, sort_keys=True)
-
-
-
-s = ["h","e","l","l","o"]
-for i in s:
-  print(i)
+json.dumps(x, indent=4, sort_keys=True)
